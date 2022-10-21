@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ECFDF5;
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.h1{
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 4em
+}
+
+.first-h1{
+    margin : 40px 0 0 100px;
+    color: #2B283A;
+}
+
+.second-h1{
+    line-height: 50px;
+    margin: 0 0 40px 100px;
+    color: #10B981;
+}
+
+h3{
+    line-height: 30px;
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 2em;
+    margin: 10px 0 20px 100px;
+}
+
+button{
+    width: 160px;
+    padding: 13px;
+    border-radius: 7px;
+    margin: 35px 0 50px 100px;
+    border: none;
+    background-color: #10B981;
+    color: #ffffff;
+}
+
+button:hover{
+    box-shadow: 0 0 2px black;
+}
+
+.line{
+    border: 2px #D5D4D8 solid;
+    width: 900px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.first-pass, .second-pass{
+    text-align: center;
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 1.8em;
+    color: white;
+    width: 400px;
+    background-color: #273549;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 8px;
+}
+
+.password{
+    display: flex;
+
+}
